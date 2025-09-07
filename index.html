@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="digital-clock">
+        <h2>Digital Clock</h2>
+        <div class="date" id="dateDay">Date and Day</div>
+        <div class="time" id="timeDisplay">Time</div>
+      </section>
+
+      <section class="stopwatch">
+        <h2>Stopwatch</h2>
+        <div class="stopwatch-display">
+          <p>hh : mm : ss : ms</p>
+          <p class="display" id="stopwatchTime">00:00:00:00</p>
+          <div class="buttons">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn">Stop</button>
+            <button id="resetBtn">Reset</button>
+            <button id="showBtn">Show Time</button>
+            <button id="clearBtn">Clear Time</button>
+          </div>
+          <div class="display-times" id="displayTimes"></div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="JS/main.js"></script>
+  </body>
+</html>
